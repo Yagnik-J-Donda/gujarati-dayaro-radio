@@ -49,6 +49,8 @@ const collections: Collection[] = [
   },
 ];
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 export default function Home() {
   const [collectionId, setCollectionId] = useState("lokgeet");
   const [trackIndex, setTrackIndex] = useState(0);
@@ -130,7 +132,7 @@ export default function Home() {
       </header>
 
       <section className="hero" id="top">
-        <Image src="/dayaro-hero.png" alt="રાત્રે ગામના માંડવા નીચે ચાલતી ગુજરાતી ડાયરાની મહેફિલ" fill priority sizes="100vw" />
+        <Image src={`${basePath}/dayaro-hero.png`} alt="રાત્રે ગામના માંડવા નીચે ચાલતી ગુજરાતી ડાયરાની મહેફિલ" fill priority sizes="100vw" />
         <div className="hero-shade" />
         <div className="hero-copy">
           <p className="eyebrow">આકાશ નીચે • માટીની વચ્ચે • સંગીત સાથે</p>
