@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anek+Gujarati:wght@400;500;600;700&family=Noto+Serif+Gujarati:wght@500;600;700&display=swap');
 @import "tailwindcss";
+footer a { color:inherit;font-weight:700;text-underline-offset:3px; }
 
 :root { --cream:#f0e2bd; --paper:#e9d4a4; --ink:#27170f; --maroon:#6f1d27; --mustard:#d59b2d; --indigo:#15213d; --brown:#6b3921; }
 * { box-sizing:border-box; }

@@ -183,7 +183,7 @@ export default function Home() {
         </div>
       </section>
 
-      <footer><div className="footer-mark">દ</div><h2>સૂર કદી અટકતો નથી.</h2><p>આજની મહેફિલ અહીં પૂરી—પણ ગુજરાતનો સૂર હંમેશાં તમારી સાથે.</p><small>ગુજરાતી ડાયરો રેડિયો · લોકસંગીતને પ્રેમથી સમર્પિત</small></footer>
+      <footer><div className="footer-mark">દ</div><h2>સૂર કદી અટકતો નથી.</h2><p>આજની મહેફિલ અહીં પૂરી—પણ ગુજરાતનો સૂર હંમેશાં તમારી સાથે.</p><small>ગુજરાતી ડાયરો રેડિયો · લોકસંગીતને પ્રેમથી સમર્પિત<br/>Built by <a href="https://yagnik-j-donda.github.io/portfolio/" target="_blank" rel="noopener noreferrer">Yagnik Donda</a></small></footer>
 
       {drawer && <div className="drawer-backdrop">
         <aside className="drawer" role="dialog" aria-modal="true" aria-label="ગીતોની યાદી">
